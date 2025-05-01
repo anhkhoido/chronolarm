@@ -1,14 +1,14 @@
-function start_workout() {
+$("#playButton").on("click", function() {
     alert('start!');
-}
+});
 
-function pause_workout() {
-    alert('pause');
-}
+$("#stopButton").on("click", function() {
+    alert('stop!');
+});
 
-function reset_workout() {
-    alert('reset');
-}
+$("#pauseButton").on("click", function() {
+    alert('pause!');
+});
 
 $(function() {
     $("div#chronolarm").find("input").attr("readonly", true).val("00 : 00");
