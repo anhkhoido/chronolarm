@@ -11,7 +11,5 @@ function reset_workout() {
 }
 
 $(function() {
-    $('#workout').attr('readonly', true).val("00 : 00");
-    $('#set').attr('readonly', true).val("00 : 00");
-    $("#break").attr('readonly', true).val("00 : 00");
+    $("div#chronolarm").find("input").attr("readonly", true).val("00 : 00");
 });
